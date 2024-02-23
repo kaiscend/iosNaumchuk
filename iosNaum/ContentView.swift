@@ -22,6 +22,8 @@ struct ContentView: View {
                 Spacer().frame(height: 20)
                 SearchBar(searchBarText: "Search doctor or health issue")
                 Spacer().frame(height: 24)
+                ThemesPalete(minPaleteSpace: 13, maxPaleteSpace: 100)
+                Spacer().frame(height: 32)
             }
         }
             

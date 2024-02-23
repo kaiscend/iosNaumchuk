@@ -12,6 +12,8 @@
 		C50C44B52B88CEF600E10B3D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C44B42B88CEF600E10B3D /* SearchBar.swift */; };
 		C50C44B82B88D44600E10B3D /* DoctorNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C44B72B88D44600E10B3D /* DoctorNotification.swift */; };
 		C50C44BA2B88D4EB00E10B3D /* DoctorProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C44B92B88D4EB00E10B3D /* DoctorProfile.swift */; };
+		C50C44BD2B89055D00E10B3D /* ThemesPalete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C44BC2B89055D00E10B3D /* ThemesPalete.swift */; };
+		C50C44C02B89057E00E10B3D /* PaleteUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C44BF2B89057E00E10B3D /* PaleteUnit.swift */; };
 		C53CE5BC2B889E66009F1F51 /* iosNaumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CE5BB2B889E66009F1F51 /* iosNaumApp.swift */; };
 		C53CE5BE2B889E66009F1F51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CE5BD2B889E66009F1F51 /* ContentView.swift */; };
 		C53CE5C02B889E68009F1F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53CE5BF2B889E68009F1F51 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		C50C44B42B88CEF600E10B3D /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C50C44B72B88D44600E10B3D /* DoctorNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotification.swift; sourceTree = "<group>"; };
 		C50C44B92B88D4EB00E10B3D /* DoctorProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfile.swift; sourceTree = "<group>"; };
+		C50C44BC2B89055D00E10B3D /* ThemesPalete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesPalete.swift; sourceTree = "<group>"; };
+		C50C44BF2B89057E00E10B3D /* PaleteUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaleteUnit.swift; sourceTree = "<group>"; };
 		C53CE5B82B889E66009F1F51 /* iosNaum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosNaum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53CE5BB2B889E66009F1F51 /* iosNaumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosNaumApp.swift; sourceTree = "<group>"; };
 		C53CE5BD2B889E66009F1F51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 		C50C44AC2B88B0D200E10B3D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C50C44BB2B8904FE00E10B3D /* Paletes */,
 				C50C44B62B88D3DE00E10B3D /* DoctorCard */,
 				C50C44AD2B88B0F000E10B3D /* Header.swift */,
 				C50C44AF2B88B16500E10B3D /* ProfileImage.swift */,
@@ -60,6 +65,15 @@
 				C50C44B92B88D4EB00E10B3D /* DoctorProfile.swift */,
 			);
 			path = DoctorCard;
+			sourceTree = "<group>";
+		};
+		C50C44BB2B8904FE00E10B3D /* Paletes */ = {
+			isa = PBXGroup;
+			children = (
+				C50C44BC2B89055D00E10B3D /* ThemesPalete.swift */,
+				C50C44BF2B89057E00E10B3D /* PaleteUnit.swift */,
+			);
+			path = Paletes;
 			sourceTree = "<group>";
 		};
 		C53CE5AF2B889E66009F1F51 = {
@@ -171,9 +185,11 @@
 				C53CE5BE2B889E66009F1F51 /* ContentView.swift in Sources */,
 				C50C44B02B88B16500E10B3D /* ProfileImage.swift in Sources */,
 				C50C44B52B88CEF600E10B3D /* SearchBar.swift in Sources */,
+				C50C44C02B89057E00E10B3D /* PaleteUnit.swift in Sources */,
 				C50C44BA2B88D4EB00E10B3D /* DoctorProfile.swift in Sources */,
 				C50C44B82B88D44600E10B3D /* DoctorNotification.swift in Sources */,
 				C50C44AE2B88B0F000E10B3D /* Header.swift in Sources */,
+				C50C44BD2B89055D00E10B3D /* ThemesPalete.swift in Sources */,
 				C53CE5BC2B889E66009F1F51 /* iosNaumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
