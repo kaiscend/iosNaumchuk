@@ -17,6 +17,9 @@ struct ContentView: View {
                     .padding(.trailing, 24)
                     .padding(.leading, 24)
                     .padding(.trailing, 24)
+                Spacer().frame(height: 32)
+                SearchBar(searchBarText: "Search doctor or health issue")
+                Spacer().frame(height: 24)
             }
         }
             
