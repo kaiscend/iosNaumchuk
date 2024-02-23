@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50C44AE2B88B0F000E10B3D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C44AD2B88B0F000E10B3D /* Header.swift */; };
+		C50C44B02B88B16500E10B3D /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C44AF2B88B16500E10B3D /* ProfileImage.swift */; };
 		C53CE5BC2B889E66009F1F51 /* iosNaumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CE5BB2B889E66009F1F51 /* iosNaumApp.swift */; };
 		C53CE5BE2B889E66009F1F51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CE5BD2B889E66009F1F51 /* ContentView.swift */; };
 		C53CE5C02B889E68009F1F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53CE5BF2B889E68009F1F51 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50C44AD2B88B0F000E10B3D /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C50C44AF2B88B16500E10B3D /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		C53CE5B82B889E66009F1F51 /* iosNaum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosNaum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53CE5BB2B889E66009F1F51 /* iosNaumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosNaumApp.swift; sourceTree = "<group>"; };
 		C53CE5BD2B889E66009F1F51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C50C44AC2B88B0D200E10B3D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C50C44AD2B88B0F000E10B3D /* Header.swift */,
+				C50C44AF2B88B16500E10B3D /* ProfileImage.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		C53CE5AF2B889E66009F1F51 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +64,7 @@
 		C53CE5BA2B889E66009F1F51 /* iosNaum */ = {
 			isa = PBXGroup;
 			children = (
+				C50C44AC2B88B0D200E10B3D /* UI */,
 				C53CE5BB2B889E66009F1F51 /* iosNaumApp.swift */,
 				C53CE5BD2B889E66009F1F51 /* ContentView.swift */,
 				C53CE5BF2B889E68009F1F51 /* Assets.xcassets */,
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C53CE5BE2B889E66009F1F51 /* ContentView.swift in Sources */,
+				C50C44B02B88B16500E10B3D /* ProfileImage.swift in Sources */,
+				C50C44AE2B88B0F000E10B3D /* Header.swift in Sources */,
 				C53CE5BC2B889E66009F1F51 /* iosNaumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

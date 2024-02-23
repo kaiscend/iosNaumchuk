@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    var appPadding : CGFloat = 24
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView {
+            VStack {
+                HeaderView()
+                    .padding(.leading, 24)
+                    .padding(.trailing, 24)
+                    .padding(.leading, 24)
+                    .padding(.trailing, 24)
+            }
+        }
+            
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().background(Color(.white))
     }
 }
