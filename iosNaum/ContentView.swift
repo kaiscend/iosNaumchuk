@@ -24,11 +24,19 @@ struct ContentView: View {
                 Spacer().frame(height: 24)
                 ThemesPalete(minPaleteSpace: 13, maxPaleteSpace: 100)
                 Spacer().frame(height: 32)
+                HStack{
+                    Text("Near Doctor").font(Font.custom("Poppins", size: 16).weight(.semibold))
+                        .foregroundColor(Color("primaryFontColor"))
+                        Spacer()
+                }
+                DoctorCards()
+            }
+            .padding(24)
             }
         }
             
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
